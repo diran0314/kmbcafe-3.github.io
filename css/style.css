@@ -40,8 +40,8 @@ img{
     margin-left: 36px;
 }
 .main-nav a {
-    color: #432;
-    -webkit-text-stroke: 0.3px #FFF;
+    color: #fff;
+    -webkit-text-stroke: 0.9px #432;
 }
 .main-nav a:hover {
     color: #0bd;
@@ -65,7 +65,7 @@ img{
 .home-content p {
     font-size: 1.125rem;
     margin: 10px 0 42px;
-    -webkit-text-stroke: #432;
+    color: #fff;
 }
 
 /*見出し*/
@@ -111,6 +111,8 @@ background: #0090aa;
 }
 #news .page-title {
     text-align: center;
+      color: #fff;
+    -webkit-text-stroke: 0.9px #432;
 }
 .news-contents {
     display: flex;
@@ -198,6 +200,8 @@ aside p {
 }
 .menu-content .page-title {
     text-align: center;
+      color: #fff;
+    -webkit-text-stroke: 0.9px #432;
 }
 .menu-content p {
     font-size: 1.125rem;
@@ -226,6 +230,10 @@ aside p {
 #contact {
     background-image: url(../images/contact-bg.png);
     min-height: 100vh;
+}
+.page-title {
+      color: #fff;
+    -webkit-text-stroke: 0.9px #432;
 }
 
 /*　フォーム　*/
